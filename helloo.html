@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>Tokai Cafe | Premium Coffee </title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+        <style>
+            *{
+                letter-spacing: 1px;
+            }
+            nav
+            {
+                background-color: rgba(230,230,230);
+                float:right;
+                border-radius: 8px;
+                padding: 14px;
+                padding-left: 0px;
+                padding-right: 0px;
+                right: 0px;
+            }
+            nav a
+            {
+                background-color: rgba(230,230,230);
+                padding: 14px;
+                margin: 0px;
+                color: black;
+                text-decoration:none;
+                border-radius: 7px;
+                font-family: 'Source Sans Pro', sans-serif;
+                letter-spacing: 2px;
+            }
+            nav a:hover
+            {
+                background-color: rgba(192, 192, 192);
+                transition: 0.3s;
+                cursor: pointer;
+            }
+            .hdr a
+            {
+                color: #994c00;
+                display: inline-block;
+                border-radius: 7px;
+                padding: 14px;
+                text-decoration:none;
+                text-transform: uppercase;
+                font-family: 'Poppins', sans-serif;
+                letter-spacing: 3px;
+            }
+            .hdr a:hover
+            {
+                background-color: #994c00;
+                color:white;
+                transition: 0.3s;
+            }
+            .lin
+            {
+                background-color: gray;
+                color: black;
+                transition: 0.3s;
+            }
+            .lin:hover
+            {
+                background-color:rgba(0, 0, 0, 0.671);
+                color: beige;
+                cursor: pointer;
+            }
+            .burg{
+                float: right;
+                right: 0%;
+                background-color: white;
+                margin-top: 5px;
+                border: none;
+            }
+            
+            .burg div{
+                background-color: #994c00;
+                width: 25px;
+                height: 4px;
+                margin:3px;
+            }
+            img
+            {
+                height: 45%;
+                padding: 7%;
+            }
+            th
+            {
+                font-family: 'Source Sans Pro', sans-serif;
+                letter-spacing: 2px;
+            }
+            td
+            {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            table tr th
+            {
+
+                padding: 10%;
+                width: 50%;r
+            }
+            table tr
+            {
+                padding: 15%;
+            }
+            .filler (min-width: 0px;)
+            {
+                width: 50%;
+            }
+            .t2{
+                padding-top: 0px;
+            }
+            p{
+                text-align: center;
+            }
+            .cu{
+                background-color: #994c00;
+                color: beige;
+                float:left;
+                padding: 10%;
+                padding-top: 5%;
+                display: block;
+                width: 100%;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-style: bold;
+            }
+            @media (max-width: 800px){
+                .nb{
+                    display: none;
+                }
+            }
+            @media (min-width: 800px){
+                .burg{
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <span class="hdr">
+            <a href="#" >Tokai Cafe</a>
+        </span>
+        <span class="nb">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Locations</a>
+            <a href="#">Careers</a>
+            <a href="#conus">Contact Us</a>
+            <a href="#"class="lin">Log-In</a>
+        </nav>
+        </span>
+        <span class="burg">
+            <button onclick="">
+                <div class="bd"></div>
+                <div class="bd"></div>
+                <div class="bd"></div>
+            </button>
+        </span>
+        <div>
+            <table>
+                <div><tr>
+                    <th><img src="ppecoffee.jpeg"></hd>
+                    <td>
+                        <table class="t2"> 
+                        <tr>
+                            <th>Hygenically prepared</th>
+                        </tr>
+                        <tr>
+                            <td><p>In these uncertain times your safety is our utmost priority.
+                                We follow every WHO safety guidlines for your safety.
+                                Ten percent of our profits are donated for the treatment of underprivellaged covid patients
+                            </p>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                    </tr></div>
+                <div><tr>
+                    <th><img src="coffeefarmer.jpg" ></th>
+                    <td>
+                        <table class="t2"> 
+                            <tr>
+                                <th>Ethically sourced</th>
+                            </tr>
+                            <tr>
+                                <td><p> We source our premium coffee from high altitude plantations from karnataka which supports the local economy and provides over a thousand jobs.
+                                Our plantations are 100% organic to be in harmony with the local biodiversity.
+                                Our rostaries run on renuable solar energy which is why our coffee has a 60% lower carbon footprint than an average cup of coffee</p></td>
+                            </tr>
+                        </table>
+                    </td>
+                    </tr>
+                    </div>
+            </table>
+        </div>
+        <div class="cu" id="conus">
+            <h3 style="padding: 4%;padding-left: 0px;letter-spacing: 3px;">Contact Us :</h3>
+            <h5 style="letter-spacing: 2px;"> +91 9999999999</h5>
+            <h5 style="letter-spacing: 2px;"> lorem@ipsum.dolor</h5>
+        </div>
+    </body>
+</html>
